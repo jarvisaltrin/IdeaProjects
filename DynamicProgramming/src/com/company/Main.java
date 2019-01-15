@@ -2,6 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Stack;
 
 public class Main {
 
@@ -36,6 +37,33 @@ public class Main {
                     L[i][j] = max(L[i-1][j], L[i][j-1]);
             }
         }
+
+        int i = m, j = n;
+        Stack<Character> s = new Stack<Character>();
+        //Travel from the end corner to get the included integers and store them in the stack
+        while( i>0 && j>0 ) {
+            if ( X[i-1] == Y[j-1] ) {
+                i--;
+                j--;
+                s.push(X[i]);
+            } else if (L[i-1][j] > L[i][j-1]) {
+                i--;
+            } else {
+                j--;
+            }
+        }
+        /*
+         * I have used stack as we are traveling backwards.
+         * Popping them will print them in correct order.
+         */
+        char[] res = new char[s.size()];
+        int count = 0;
+        while(s.size()>0) {
+            res[count] = s.pop();
+            System.out.print(res[count] + " ");
+            count++;
+        }
+
         return L[m][n];
     }
 
