@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class Main {
 
     public static int max(int a, int b){
@@ -44,22 +47,34 @@ public class Main {
     *
     * Time Complexity O(n^2)
     * */
-    public static int longestIncreasingSubsequence(int[] arr, int n){
-        int[] lis = new int[n];
-        int i,j,max = 0;
-        /* Initialize LIS values for all indexes */
-        for(i=0;i<n;i++)
-            lis[i] = 1;
-        /* Compute optimized LIS values in bottom up manner */
-        for(i=1;i<n;i++)
-            for(j=0;j<i;j++)
-                if(arr[i]>arr[j] && lis[i]<lis[j]+1)
-                    lis[i] = lis[j] + 1;
-        /* Pick maximum of all LIS values */
-        for ( i = 0; i < n; i++ )
-            if ( max < lis[i] )
-                max = lis[i];
-        return max;
+    public static int longestIncreasingSubsequenceLength(int[] arr){
+        if(arr == null || arr.length == 0){
+            return 0;
+        }
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        for(int element : arr){
+            // If list is empty or new element is > than last element
+            if(list.size() == 0 || element > list.get(list.size()-1)){
+                list.add(element);
+            }else{
+                int start = 0;
+                int end = list.size()-1;
+                while(start<end){
+                    int mid = (start+end)/2;
+                    if(list.get(mid) < element){
+                        start = mid + 1;
+                    }else{
+                        end = mid;
+                    }
+                }
+                list.set(end, element);
+            }
+        }
+        Iterator<Integer> it = list.listIterator();
+        while(it.hasNext()){
+            System.out.print(it.next() + " ");
+        }
+        return list.size();
     }
 
     /*
@@ -191,13 +206,13 @@ public class Main {
         char[] Y =  s2.toCharArray();
         int m = X.length, n = Y.length;
         // GTAB is the least common subsequence
-        System.out.println("The length of longest common subsequence is: "
+        System.out.println("\nThe length of longest common subsequence is: "
                 + longestCommonSubsequence(X,Y,m,n) + "\n");
 
 
         int arr[] = { 10, 22, 9, 33, 21, 50, 41, 60 };
-        System.out.println("The length of longest increasing subsequence is: "
-                + longestIncreasingSubsequence( arr, arr.length ) + "\n");
+        System.out.println("\nThe length of longest increasing subsequence is: "
+                + longestIncreasingSubsequenceLength( arr ) + "\n");
 
 
         String str1 = "sunday";
