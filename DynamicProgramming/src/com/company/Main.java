@@ -163,16 +163,34 @@ public class Main {
         return diff;
     }
 
+    /*
+    Given a rod of length 'n' inches and an array of prices that contains prices of
+    all pieces of size smaller than 'n'.
+    Determine the maximum value obtainable by cutting up the rod and selling the pieces.
+     */
+    static int cutRod(int[] price, int n){
+        int[] val = new int[n+1];
+        val[0] = 0;
 
+
+        for(int i=1; i<=n; i++){
+            int max_val = Integer.MIN_VALUE;
+            for(int j=0; j<i; j++)
+                max_val = Math.max(max_val, price[j]+val[i-j-1]);
+            val[i] = max_val;
+        }
+        return val[n];
+    }
 
     public static void main(String[] args) {
 
         Main m1 = new Main();
-        String s1 = "AGGTB";
+        String s1 = "AGGTAB";
         String s2 = "GXTXAYB";
         char[] X =  s1.toCharArray();
         char[] Y =  s2.toCharArray();
         int m = X.length, n = Y.length;
+        // GTAB is the least common subsequence
         System.out.println("The length of longest common subsequence is: "
                 + longestCommonSubsequence(X,Y,m,n) + "\n");
 
@@ -187,5 +205,11 @@ public class Main {
         System.out.println("Edit Distance: " +
                 editDistDP( str1 , str2 , str1.length(), str2.length()) + "\n");
 
+
+        // Cutting a rod problem
+        int arr1[] = {1, 5, 8, 9, 10, 17, 17, 20};
+        System.out.println("Maximum Obtainable Value is " + cutRod(arr1, arr1.length));
+        int arr2[] = {3, 5, 8, 9, 10, 17, 17, 20};
+        System.out.println("Maximum Obtainable Value is " + cutRod(arr2, arr1.length));
     }
 }

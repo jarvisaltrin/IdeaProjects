@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d8b4cad-4460-44d9-a84f-74dc57211bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/NumberToWords.java" afterDir="false" />
+    <list default="true" id="2d8b4cad-4460-44d9-a84f-74dc57211bd9" name="Default Changelist" comment="English Number to words problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +18,7 @@
     <session id="2023213060">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -29,8 +28,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4113" />
-          <entry key="PLAIN_TEXT" value="204" />
+          <entry key="JAVA" value="4130" />
+          <entry key="PLAIN_TEXT" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -71,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/NumberToWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="2940">
+              <caret line="147" column="64" lean-forward="true" selection-start-line="147" selection-start-column="64" selection-end-line="147" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -168,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547526918723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547528427212" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -277,7 +276,7 @@
       <workItem from="1546976895357" duration="10454000" />
       <workItem from="1547244799747" duration="1100000" />
       <workItem from="1547412630212" duration="50000" />
-      <workItem from="1547520719300" duration="5590000" />
+      <workItem from="1547520719300" duration="7505000" />
     </task>
     <task id="LOCAL-00001" summary="Cartesian Product of a vector of vectors">
       <created>1547522121646</created>
@@ -307,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547525580758</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="English Number to words problem">
+      <created>1547526956050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547526956050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25102000" />
+    <option name="totallyTimeSpent" value="27017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -326,7 +332,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,7 +364,8 @@
     <MESSAGE value="XML file updates" />
     <MESSAGE value="Rearrange positive and negative numbers in an array. Negative numbers in front, followed by positive numbers." />
     <MESSAGE value="Balanced Bracket Problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Balanced Bracket Problem" />
+    <MESSAGE value="English Number to words problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="English Number to words problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -438,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/NumberToWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        <state relative-caret-position="2940">
+          <caret line="147" column="64" lean-forward="true" selection-start-line="147" selection-start-column="64" selection-end-line="147" selection-end-column="64" />
         </state>
       </provider>
     </entry>
