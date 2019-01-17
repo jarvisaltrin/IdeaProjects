@@ -14,7 +14,8 @@ For example, given an array [ 1, 2, 6, 4], you would first compare 2 to the elem
 
 Function Description
 
-Complete the function maxDifference in the editor below. The function must return an integer representing the maximum difference in a.
+Complete the function maxDifference in the editor below.
+The function must return an integer representing the maximum difference in a.
 
 
 

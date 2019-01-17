@@ -6,7 +6,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MainUpdated {
+/*
+Check if a path exist from one city (source) to another city (destination)
+ */
+public class CitiesDestination {
 
     public static void main(String[] args) {
         List<Integer> source = new ArrayList<>();
