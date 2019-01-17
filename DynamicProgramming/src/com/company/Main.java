@@ -225,6 +225,27 @@ public class Main {
         return val[n];
     }
 
+
+    // Minimum number of coins required to make a given amount
+    static int minCoins(int[] coins, int amount){
+        int m = coins.length;
+        int[] table = new int[amount+1];
+        table[0] = 0;
+        for (int i=1; i <= amount; i++){
+            table[i] = Integer.MAX_VALUE;
+        }
+        for (int i=1; i <= amount; i++){
+            for(int j=0; j<m; j++){
+                if (coins[j] <= i) {
+                    int sub_res = table[i - coins[j]];
+                    if (sub_res != Integer.MAX_VALUE && sub_res + 1 < table[i])
+                        table[i] = sub_res + 1;
+                }
+            }
+        }
+        return table[amount];
+    }
+
     public static void main(String[] args) {
 
         Main m1 = new Main();
@@ -254,5 +275,10 @@ public class Main {
         System.out.println("Maximum Obtainable Value is " + cutRod(arr1, arr1.length));
         int arr2[] = {3, 5, 8, 9, 10, 17, 17, 20};
         System.out.println("Maximum Obtainable Value is " + cutRod(arr2, arr1.length));
+
+        //minimum coin problem
+        int coins[] = {9, 6, 5, 1};
+        int amount = 8;
+        System.out.println ("\nMinimum number of coins required: " + minCoins(coins, amount));
     }
 }
