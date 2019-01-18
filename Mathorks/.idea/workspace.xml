@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d8b4cad-4460-44d9-a84f-74dc57211bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ShortestPathMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MinimumCostPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ShortestPathMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ShortestPathMaze.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,23 +20,24 @@
     <session id="2023213060">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5239" />
-          <entry key="PLAIN_TEXT" value="385" />
+          <entry key="JAVA" value="5240" />
+          <entry key="PLAIN_TEXT" value="460" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -46,30 +47,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MazePath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+            <state relative-caret-position="-31">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
-                <element signature="method#main#0;class#MazePath#0" />
                 <element signature="method#numberOfPaths#0;class#MazePath#0" />
                 <element signature="method#countPaths#0;class#MazePath#0" />
                 <element signature="method#isValidCell#0;class#MazePath#0" />
-                <element signature="method#isSafe#0;class#MazePath#0" />
-                <element signature="method#shortestPathLength#0;class#MazePath#0" />
-                <element signature="method#findShortestPathLength#0;class#MazePath#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ShortestPathMaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-978">
-              <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-              <folding>
-                <element signature="class#Node#0" />
-                <element signature="method#isValid#0;class#Util#0;class#ShortestPathMaze#0" />
-              </folding>
+            <state relative-caret-position="-1620">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/MinimumCostPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -153,7 +155,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547708163615" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547824109469" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -264,7 +266,8 @@
       <workItem from="1547244799747" duration="1100000" />
       <workItem from="1547412630212" duration="50000" />
       <workItem from="1547520719300" duration="7505000" />
-      <workItem from="1547704618344" duration="3779000" />
+      <workItem from="1547704618344" duration="4377000" />
+      <workItem from="1547773599565" duration="4500000" />
     </task>
     <task id="LOCAL-00001" summary="Cartesian Product of a vector of vectors">
       <created>1547522121646</created>
@@ -329,17 +332,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547707734384</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Shortest Path from Source to Destination using Lee Algorithm (BFS)">
+      <created>1547708442236</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547708442236</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30796000" />
+    <option name="totallyTimeSpent" value="35894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,7 +406,8 @@
     <MESSAGE value="Decimal to Binary and Binary to Decimal conversions" />
     <MESSAGE value="Jolly Jumper problem" />
     <MESSAGE value="renames" />
-    <option name="LAST_COMMIT_MESSAGE" value="renames" />
+    <MESSAGE value="Shortest Path from Source to Destination using Lee Algorithm (BFS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shortest Path from Source to Destination using Lee Algorithm (BFS)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -489,28 +500,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MazePath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        <state relative-caret-position="-31">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="method#main#0;class#MazePath#0" />
             <element signature="method#numberOfPaths#0;class#MazePath#0" />
             <element signature="method#countPaths#0;class#MazePath#0" />
             <element signature="method#isValidCell#0;class#MazePath#0" />
-            <element signature="method#isSafe#0;class#MazePath#0" />
-            <element signature="method#shortestPathLength#0;class#MazePath#0" />
-            <element signature="method#findShortestPathLength#0;class#MazePath#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ShortestPathMaze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-978">
-          <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-          <folding>
-            <element signature="class#Node#0" />
-            <element signature="method#isValid#0;class#Util#0;class#ShortestPathMaze#0" />
-          </folding>
+        <state relative-caret-position="-1620">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MinimumCostPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>

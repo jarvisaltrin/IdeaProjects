@@ -19,7 +19,7 @@ class Node
         this.y = y;
         this.dist = dist;
     }
-};
+}
 
 public class ShortestPathMaze {
 
