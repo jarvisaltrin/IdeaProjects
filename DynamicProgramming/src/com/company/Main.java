@@ -246,6 +246,26 @@ public class Main {
         return table[amount];
     }
 
+    /*
+    Coin Change Problem
+    Can you determine the number of ways of making change for a particular number
+    of units using the given types of coins?
+
+     */
+    private static long getWays(long[][] dpTable){
+        for(int j = 1 ; j < dpTable[0].length ; j++)
+            for(int i = 0 ; i < dpTable.length ; i++){
+                int coinVal = (int) dpTable[i][0] ;
+                long currentVal = (i - 1 >= 0) ? dpTable[i-1][j] : 0;
+                if( j == coinVal)
+                    currentVal++;
+                if (j > coinVal)
+                    currentVal += dpTable[i][j - coinVal];
+                dpTable[i][j] = currentVal;
+            }
+        return dpTable[dpTable.length - 1][dpTable[0].length -1];
+    }
+
     public static void main(String[] args) {
 
         Main m1 = new Main();
@@ -280,5 +300,16 @@ public class Main {
         int coins[] = {9, 6, 5, 1};
         int amount = 8;
         System.out.println ("\nMinimum number of coins required: " + minCoins(coins, amount));
+
+        // Coin change problem
+        String[] coinStr = new String[coins.length];
+        for(int i=0;i<coins.length;i++) {
+            String str = String.valueOf(coins[i]);
+            coinStr[i] = str;
+        }
+        long[][] dpTable = new long[coins.length][amount+1-2];
+        for(int i = 0 ; i < coins.length ; i++)
+            dpTable[i][0] = Integer.parseInt(coinStr[i]);
+        System.out.print("The number of ways to make change " + (amount-2) + " is: " + getWays(dpTable));
     }
 }
