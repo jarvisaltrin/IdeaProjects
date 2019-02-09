@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d8b4cad-4460-44d9-a84f-74dc57211bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/ReservoirSampling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/DutchFlag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/CartesianProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CartesianProduct.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,13 +34,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7213" />
-          <entry key="PLAIN_TEXT" value="567" />
+          <entry key="JAVA" value="7699" />
+          <entry key="PLAIN_TEXT" value="599" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="29" />
         </counts>
       </usages-collector>
     </session>
@@ -60,26 +59,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/JollyJumper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/ReverseAddPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/ReservoirSampling.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/DutchFlag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="105">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -118,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/com/company/CoinFlip.java" />
         <option value="$PROJECT_DIR$/src/com/company/CartesianProduct.java" />
         <option value="$PROJECT_DIR$/src/com/company/ReservoirSampling.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DutchFlag.java" />
       </list>
     </option>
   </component>
@@ -168,7 +159,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549742487206" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549743311034" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -215,7 +206,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ReservoirSampling" />
+      <option name="MAIN_CLASS_NAME" value="com.company.DutchFlag" />
       <module name="InterviewQuestions" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -287,7 +278,7 @@
       <workItem from="1549229672577" duration="2709000" />
       <workItem from="1549262672639" duration="715000" />
       <workItem from="1549518028082" duration="599000" />
-      <workItem from="1549739116688" duration="2606000" />
+      <workItem from="1549739116688" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="Cartesian Product of a vector of vectors">
       <created>1547522121646</created>
@@ -387,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549739412927</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Reservoir Sampling problem added">
+      <created>1549742507863</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1549742507863</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47237000" />
+    <option name="totallyTimeSpent" value="48056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -459,7 +457,8 @@
     <MESSAGE value="Minimum Cost Path from source to destination" />
     <MESSAGE value="Three Sum Problem" />
     <MESSAGE value="Ping Pong Multithread example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ping Pong Multithread example" />
+    <MESSAGE value="Reservoir Sampling problem added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reservoir Sampling problem added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/RearrangePositiveNegative.java">
@@ -559,10 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JollyJumper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/ReservoirSampling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="160">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -573,10 +572,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ReservoirSampling.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/JollyJumper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        <state relative-caret-position="225">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DutchFlag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
