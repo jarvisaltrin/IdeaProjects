@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Vector;
 
+// Vector of a vector
+
 public class CartesianProduct {
 
     private LinkedHashMap<String, Vector<String>> vector;
