@@ -1,11 +1,13 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class RearrangePositiveNegative {
 
     public static void rearrangePositiveNegative(int[] arr, int n){
         int val;
 
-        for(int i=1; i<n; i++){
+        for(int i=0; i<n; i++){
             val = arr[i];
             if(val > 0){
                 continue;
@@ -17,6 +19,7 @@ public class RearrangePositiveNegative {
             }
             arr[j+1] = val;
         }
+        //System.out.println(Arrays.toString(arr));
         for(int i=0; i<n; i++){
             System.out.print(arr[i] + " ");
         }
