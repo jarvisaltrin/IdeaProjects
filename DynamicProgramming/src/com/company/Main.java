@@ -307,9 +307,9 @@ public class Main {
             String str = String.valueOf(coins[i]);
             coinStr[i] = str;
         }
-        long[][] dpTable = new long[coins.length][amount+1-2];
+        long[][] dpTable = new long[coins.length][amount+1];
         for(int i = 0 ; i < coins.length ; i++)
             dpTable[i][0] = Integer.parseInt(coinStr[i]);
-        System.out.print("The number of ways to make change " + (amount-2) + " is: " + getWays(dpTable));
+        System.out.print("The number of ways to make change " + (amount) + " is: " + getWays(dpTable));
     }
 }
