@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c507e64-d9dc-46cb-af09-861792025cd8" name="Default Changelist" comment="Time complexity">
+    <list default="true" id="3c507e64-d9dc-46cb-af09-861792025cd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LookAndSay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Strings/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Strings/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PhoneMnemonics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneMnemonics.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,13 +32,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1829" />
-          <entry key="PLAIN_TEXT" value="127" />
+          <entry key="JAVA" value="2283" />
+          <entry key="PLAIN_TEXT" value="155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -55,11 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PhoneMnemonics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="140">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LookAndSay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,6 +92,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/PhoneMnemonics.java" />
+        <option value="$PROJECT_DIR$/src/LookAndSay.java" />
       </list>
     </option>
   </component>
@@ -125,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551751233403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551752050387" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -140,7 +152,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PhoneMnemonics">
+  <component name="RunManager" selected="Application.LookAndSay">
+    <configuration name="LookAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LookAndSay" />
+      <module name="Strings" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="Java SDK" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -162,9 +181,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.PhoneMnemonics" />
+      <item itemvalue="Application.LookAndSay" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LookAndSay" />
         <item itemvalue="Application.PhoneMnemonics" />
         <item itemvalue="Application.Main" />
       </list>
@@ -186,7 +207,7 @@
       <workItem from="1544207682508" duration="15000" />
       <workItem from="1544207711815" duration="35000" />
       <workItem from="1546887259129" duration="952000" />
-      <workItem from="1551750220943" duration="998000" />
+      <workItem from="1551750220943" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="Given a phone number, find all the string that can be formed from its digits based on phone keypad.">
       <created>1551751037544</created>
@@ -195,11 +216,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551751037544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Time complexity and problem statement added">
+      <created>1551751257251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551751257251</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10043000" />
+    <option name="totallyTimeSpent" value="11215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -244,7 +272,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Given a phone number, find all the string that can be formed from its digits based on phone keypad." />
-    <option name="LAST_COMMIT_MESSAGE" value="Given a phone number, find all the string that can be formed from its digits based on phone keypad." />
+    <MESSAGE value="Time complexity and problem statement added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Time complexity and problem statement added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -256,8 +285,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PhoneMnemonics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="140">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LookAndSay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
