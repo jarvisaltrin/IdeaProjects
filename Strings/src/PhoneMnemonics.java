@@ -1,10 +1,22 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+Each digit, apart from 0 and 1, in a phone keypad corresponds to one of three or four
+letters of the alphabet.
+
+Write a program which takes as input a phone number, specified as a string of digits,
+and returns all possible character sequences that correspond to the phone number.
+The cell phone keypad is specified by a mapping that takes a digit and returns the
+corresponding set of characters. The character sequences do not have to be legal
+words or phrases.
+ */
+
 public class PhoneMnemonics {
 
     public static final String[] MAPPING = {"0","1","ABC","DEF","GHI","JKL","MNO","PQRS","TUV","WXYZ"};
 
+    // Time Complexity - O((4^n)*n)
     public static List<String> phoneMnemonics(String phoneNum){
         char[] partialMnemonics = new char[phoneNum.length()];
         List<String> mnemonics = new ArrayList<String>();
