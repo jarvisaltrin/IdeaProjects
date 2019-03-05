@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d8b4cad-4460-44d9-a84f-74dc57211bd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Arrays/src/com/company/PascalTriange.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d8b4cad-4460-44d9-a84f-74dc57211bd9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +16,7 @@
     <session id="2023213060">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.11" value="1" />
@@ -344,7 +342,7 @@
       <workItem from="1550434535673" duration="89000" />
       <workItem from="1551400235152" duration="4928000" />
       <workItem from="1551604066965" duration="181000" />
-      <workItem from="1551736274191" duration="854000" />
+      <workItem from="1551736274191" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary="Cartesian Product of a vector of vectors">
       <created>1547522121646</created>
@@ -476,7 +474,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63740000" />
+    <option name="totallyTimeSpent" value="63746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
