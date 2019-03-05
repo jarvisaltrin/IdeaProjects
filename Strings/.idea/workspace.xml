@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c507e64-d9dc-46cb-af09-861792025cd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LookAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ValidIP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,13 +32,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2283" />
-          <entry key="PLAIN_TEXT" value="155" />
+          <entry key="JAVA" value="2998" />
+          <entry key="PLAIN_TEXT" value="180" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -63,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LookAndSay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
@@ -71,6 +71,15 @@
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ValidIP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="37" column="69" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -93,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/PhoneMnemonics.java" />
         <option value="$PROJECT_DIR$/src/LookAndSay.java" />
+        <option value="$PROJECT_DIR$/src/ValidIP.java" />
       </list>
     </option>
   </component>
@@ -137,7 +147,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551752050387" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551753308901" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -152,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LookAndSay">
+  <component name="RunManager" selected="Application.ValidIP">
     <configuration name="LookAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LookAndSay" />
       <module name="Strings" />
@@ -178,13 +188,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidIP" />
+      <module name="Strings" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.PhoneMnemonics" />
       <item itemvalue="Application.LookAndSay" />
+      <item itemvalue="Application.ValidIP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidIP" />
         <item itemvalue="Application.LookAndSay" />
         <item itemvalue="Application.PhoneMnemonics" />
         <item itemvalue="Application.Main" />
@@ -207,7 +226,7 @@
       <workItem from="1544207682508" duration="15000" />
       <workItem from="1544207711815" duration="35000" />
       <workItem from="1546887259129" duration="952000" />
-      <workItem from="1551750220943" duration="2170000" />
+      <workItem from="1551750220943" duration="2903000" />
     </task>
     <task id="LOCAL-00001" summary="Given a phone number, find all the string that can be formed from its digits based on phone keypad.">
       <created>1551751037544</created>
@@ -223,11 +242,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551751257251</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Look and Say Problem">
+      <created>1551752483860</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551752483860</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11215000" />
+    <option name="totallyTimeSpent" value="11948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -273,7 +299,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Given a phone number, find all the string that can be formed from its digits based on phone keypad." />
     <MESSAGE value="Time complexity and problem statement added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Time complexity and problem statement added" />
+    <MESSAGE value="Look and Say Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Look and Say Problem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -297,6 +324,13 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ValidIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="37" column="69" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
         </state>
       </provider>
     </entry>
