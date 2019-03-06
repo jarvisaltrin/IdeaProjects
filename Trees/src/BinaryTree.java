@@ -261,6 +261,30 @@ public class BinaryTree {
         return true;
     }
 
+
+    // returns true if a binary tree is height balanced
+    public static boolean isBalanced(TreeNode node){
+        int left_height, right_height;
+        if (node == null){
+            return true;
+        }
+        left_height = height(node.left);
+        right_height = height(node.right);
+        if(Math.abs(left_height - right_height) <= 1 && isBalanced(node.left) && isBalanced(node.right))
+            return true;
+
+        return false;
+    }
+
+    // Compute the height of a tree. Height is the number of nodes along the longest path from
+    // the root to the farthest leaf node
+    public static int height(TreeNode node){
+        if(node == null)
+            return 0;
+        // height = 1 + max of left height and right height
+        return 1+Math.max(height(node.left), height(node.right));
+    }
+
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
         tree.root = new TreeNode(1);
@@ -305,6 +329,9 @@ public class BinaryTree {
         boolean sym;
         sym = isSymmetric(tree1.root);
         System.out.printf("\nIs symmetric? : %b", sym);
+        System.out.println();
+
+        System.out.printf("\nIs height balanced? : %b", isBalanced(tree.root));
         System.out.println();
 
         boolean sum;
