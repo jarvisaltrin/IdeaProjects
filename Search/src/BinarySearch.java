@@ -1,5 +1,7 @@
+import java.util.Arrays;
+import java.util.List;
 
-// Java implementation of recursive Binary Search 
+// Java implementation of recursive Binary Search
 class BinarySearch
 {
     // Returns index of x if it is present in arr[l.. 
@@ -30,6 +32,22 @@ class BinarySearch
         return -1;
     }
 
+
+    // Search a 2D matrix sorted in row and column order
+    public static boolean matrixSearch(List<List<Integer>> A, int x){
+        int row = 0, col = A.get(0).size()-1;
+        while(row < A.size() && col >= 0){
+            if(A.get(row).get(col).equals(x)){
+                return true;
+            }else if (A.get(row).get(col) < x){
+                row++;
+            }else{
+                col--;
+            }
+        }
+        return false;
+    }
+
     // Driver method to test above 
     public static void main(String args[])
     {
@@ -43,5 +61,8 @@ class BinarySearch
         else
             System.out.println("Element found at index " +
                     result);
+
+        List<List<Integer>> A = Arrays.asList(Arrays.asList(1,2,3),Arrays.asList(1,2,4),Arrays.asList(3,5,6));
+        System.out.println(matrixSearch(A, 5));
     }
 } 
