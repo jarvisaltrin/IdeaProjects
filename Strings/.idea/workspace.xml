@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c507e64-d9dc-46cb-af09-861792025cd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DistinctSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DynamicProgramming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Graph/src/com/company/DetectCycleDirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graph/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Graph/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -174,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553280055272" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553281189602" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -259,7 +260,7 @@
       <workItem from="1544207711815" duration="35000" />
       <workItem from="1546887259129" duration="952000" />
       <workItem from="1551750220943" duration="5140000" />
-      <workItem from="1553279689252" duration="407000" />
+      <workItem from="1553279689252" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="Given a phone number, find all the string that can be formed from its digits based on phone keypad.">
       <created>1551751037544</created>
@@ -307,7 +308,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14592000" />
+    <option name="totallyTimeSpent" value="15006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
