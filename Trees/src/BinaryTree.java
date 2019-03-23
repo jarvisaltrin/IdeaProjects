@@ -337,6 +337,11 @@ public class BinaryTree {
         tree1.root.right.left = new TreeNode(4);
         tree1.root.right.right = new TreeNode(3);
 
+        /* Print all root-to-leaf paths of the input tree */
+        System.out.println();
+        System.out.println("All paths in a tree: ");
+        tree.printPaths(tree.root);
+
         boolean sym;
         sym = isSymmetric(tree1.root);
         System.out.printf("\nIs symmetric? : %b", sym);
@@ -371,5 +376,7 @@ public class BinaryTree {
         isBST = isValidBST(tree3.root);
         System.out.printf("\nIs valid BST? : %b", isBST);
         System.out.println();
+
+
     }
 }
