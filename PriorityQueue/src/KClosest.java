@@ -8,6 +8,8 @@ public class KClosest {
     public static void main(String[] args){
         int[][] points = {{3,3}, {5,-1}, {-2,4}};
         int k = 2;
+        //int[][] points = {{1,3}, {-2,2}};
+        //int k = 1;
         int[][] res = kClosest(points, k);
         for(int[] row : res){
             System.out.println(Arrays.toString(row));
@@ -19,7 +21,8 @@ public class KClosest {
         PriorityQueue<int[]> pq = new PriorityQueue<int[]>(k, new Comparator<int[]>() {
             @Override
             public int compare(int[] a, int[] b) {
-                return (a[0]*a[0] + a[1]*a[1]) - (b[0]*b[0]-b[1]*b[1]);
+                //System.out.println((a[0]*a[0] + a[1]*a[1]) + " " + (b[0]*b[0]+b[1]*b[1]));
+                return (a[0]*a[0] + a[1]*a[1]) - (b[0]*b[0]+b[1]*b[1]);
             }
         });
         for(int[] point: points)
